@@ -12,13 +12,13 @@ build: [
 ]
 depends: [
   "ocaml" {>= "5.5.0"}
-  "core"
-  "ppx_diff"
-  "ppx_jane"
-  "ppx_stable_witness"
-  "sexplib"
-  "stdio"
-  "dune"               {>= "3.17.0"}
+  "core" {>= "v0.18~" & < "v0.19~"}
+  "ppx_diff" {>= "v0.18~" & < "v0.19~"}
+  "ppx_jane" {>= "v0.18~" & < "v0.19~"}
+  "ppx_stable_witness" {>= "v0.18~" & < "v0.19~"}
+  "sexplib" {>= "v0.18~" & < "v0.19~"}
+  "stdio" {>= "v0.18~" & < "v0.19~"}
+  "dune" {>= "3.17.0"}
 ]
 available: arch != "x86_32"
 synopsis: "Time-zone handling"
